@@ -15,7 +15,15 @@ namespace Program2
             car.SetOutTime();
 
             Random random = new Random();
-            random.Next();
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.NextDouble());
+            Console.WriteLine(random.NextDouble()*10);
+            //random.Next();
+            // 10 넣으면 0~9 나옴
         }
     }
 }
