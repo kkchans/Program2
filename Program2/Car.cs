@@ -11,7 +11,7 @@ namespace Program2
         public void SetInTime()
         {
             this.inTime = DateTime.Now;
-
+            //test
         }
         public void SetOutTime()
         {
